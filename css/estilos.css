@@ -1,0 +1,80 @@
+body{
+    background-color: white;
+}
+
+.flexContenedor{
+    display: flex;
+}
+
+.contenedor1 {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    width: 50px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.texto {
+    font-size: 16px; /* Ajusta el tamaño de fuente según tus necesidades */
+}
+
+.contenedor2 {
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    justify-content: flex-start; /* Alineamos los elementos desde la izquierda */
+    background-color: black;
+}
+
+h4 {
+    color: white; 
+    margin-right: 10px; /* Espacio entre los títulos */
+}
+
+.contenedor3{
+    display: flex;
+}
+
+.contenedorCaja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.caja {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.rojo {
+    background-color: black;
+    color: white;
+}
+
+.gris {
+    background-color: brown;
+    color: white;
+}
+
+h3{
+    margin-right: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
